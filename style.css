@@ -1,0 +1,98 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+font-family: serif;
+background-color:#191716;
+color:#191716;
+font-size: 25px;
+margin: 0 300px;
+  }
+
+h1, h2, h3 {
+        text-align: center;
+}
+
+h3 {
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+    line-height: 2;
+    margin: 0;
+}
+
+nav a {
+    color: #191716;
+    display: inline-block;
+    padding: 10px 5%;
+    background-color:#ECE2D0;
+    text-decoration: none;
+}
+
+a {
+    color:#191716;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #550C18;
+}
+
+li {
+    font-style:italic
+}
+
+header{
+    background-color: #ECE2D0;
+    padding: 10px 15%;
+    
+}
+
+.menu {
+    color: #191716;
+    text-align: center;
+    background-color: #ECE2D0;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+section {
+    background-color: #ECE2D0;
+    padding: 10px 15%;
+    text-align: justify;
+}
+
+.kontaktniudaje img{
+width: 20%;
+float: left;
+overflow: auto;
+margin-right: 20px;
+}
+
+.dosazenevzdelani {
+    padding: 10px 15% 5% 15%;
+}
+
+
+.patka {
+    font-size: 15px;
+    text-align: center;
+    background-color:#ECE2D0;
+    padding: 0 25%;
+}
+
+.menu a:hover, .menu a:focus, .menu a:active {
+    text-decoration: none;
+    color: #ECE2D0;
+    background-color: #550C18;
